@@ -8,7 +8,7 @@ import altair as alt
 import time
 from datetime import datetime, timedelta
 import pickle
-from xgboost import XGBClassifier
+#from xgboost import XGBClassifier
 
 # Function to generate time intervals between start_time and end_time
 def generateTimeFunction(start_time, end_time):
