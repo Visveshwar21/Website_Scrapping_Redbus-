@@ -4,7 +4,7 @@ import numpy as np
 #import matplotlib.pyplot as plt
 import altair as alt
 #from sqlalchemy import create_engine
-import pymysql
+#import pymysql
 import time
 from datetime import datetime, timedelta
 import pickle
