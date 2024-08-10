@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
 import altair as alt
-#from sqlalchemy import create_engine
+from sqlalchemy import create_engine
 #import pymysql
 import time
 from datetime import datetime, timedelta
@@ -22,7 +22,7 @@ def generateTimeFunction(start_time, end_time):
 
 # Function to connect to the database and execute a query
 def dataBaseConnectionFunction(quary):
-    engine = create_engine("mysql+pymysql://root:ES17cs74@localhost/redbusinfo")
+    engine = create_engine("mysql+pymysql://root:Venu934473@@localhost/redbusinfo")
     with engine.connect() as conn:
         df = pd.read_sql(quary,conn)
     return df
